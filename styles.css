@@ -3,14 +3,19 @@
 }
 
 ::-webkit-scrollbar-thumb {
-	border: 1px solid var(--color-border-scrollbar);
 	background-clip: padding-box;
 	border-radius: 1rem;
-	background-color: var(--color-bg-scrollbar);
 }
 
 body {
 	background-color: var(--theme-bg-white);
+}
+
+.body-container .nav-bar {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 9999;
 }
 
 .main-container {
