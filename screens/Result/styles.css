@@ -64,7 +64,7 @@ body {
 }
 
 .quiz-input-component .correct {
-	color: var(--theme-text-white) !important;
+	color: var(--theme-text-white);
 	background-color: var(--answer-correct);
 }
 .quiz-input-component .incorrect {
