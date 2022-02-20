@@ -1,1 +1,37 @@
 @import url("../../styles.css");
+
+body {
+	background-color: var(--theme-bg-grey);
+}
+
+.rules-container {
+	min-height: calc(100vh - 4rem);
+	display: grid;
+	grid-template-columns: 1fr;
+	place-content: center;
+}
+
+.rules {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.rules li {
+	border: none;
+	margin: 1rem 0;
+}
+
+.main-header {
+	color: var(--theme-primary);
+	font-size: 2.5rem;
+	line-height: 3rem;
+	margin-bottom: 10px;
+}
+
+.rules .btn {
+	margin-bottom: 1rem;
+	width: 90%;
+}

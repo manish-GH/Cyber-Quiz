@@ -1,0 +1,41 @@
+@import url("../../styles.css");
+
+body {
+	background-color: var(--theme-bg-grey);
+}
+
+.categories-container {
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.categories-container .card {
+	padding: 5px;
+	margin: 1rem;
+}
+
+.categories-container .card:hover {
+	cursor: pointer;
+}
+.categories-container .card .card-text-overlay {
+	display: none;
+}
+
+.categories-container img {
+	object-fit: cover;
+}
+
+.categories-container p {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+	text-align: left;
+	padding: 0 1rem;
+}
+
+.categories-container .btn {
+	margin: 10px;
+	width: 80%;
+}
